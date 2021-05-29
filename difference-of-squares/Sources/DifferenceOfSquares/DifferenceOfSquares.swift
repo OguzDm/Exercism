@@ -27,9 +27,9 @@ class Squares {
     var differenceOfSquares: Int {
 
         let sumOfSquare = sumOfSquares
-        let squareOfSum = squareOfSum
+        let squareOfSums = squareOfSum
         
-        return squareOfSum - sumOfSquare
+        return squareOfSums - sumOfSquare
     }
     
     init(_ num: Int) {
